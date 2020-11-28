@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>JS Bin-collaborative javascript debugging</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="cpcss.css">
+
+
+
+</head>
+<body>
+
+	
+
+	<div id="header">
+
+		<div id="logo">
+
+			CodePlayer
+			
+
+		</div>
+
+
+		<div id="sub">  
+
+
+		</div>
+
+
+		<div id="togglecontainer">
+			
+         <div class="togglebutton active"  id="html">HTML</div>
+
+
+
+         <div class="togglebutton "  id="css">CSS</div>
+         <div class="togglebutton"  id="js">JavaScript</div>
+         <div class="togglebutton  active"  id="out">Output</div>
+
+
+
+
+
+		</div>
+
+	
+
+
+		
+
+
+
+	</div>
+
+
+
+
+    <div id="bodycontainer"></div>
+
+
+    <textarea id="htmlpanel" class="panel"> <p id="para"> Hello</p></textarea>
+    <textarea id="csspanel" class="panel  hidden"> p{color:
+                                                           green;}</textarea>
+    <textarea id="jspanel" class="panel hidden"> document.getElementById("para").innerHTML="Pushkar"; </textarea>
+
+
+    <iframe  id="outputpanel" class="panel" ></iframe>
+   
+
+  <script type="text/javascript"  src="cjs.js">
+     </script>
+	
+</body>
+</html>
